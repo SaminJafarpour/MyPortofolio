@@ -1,0 +1,31 @@
+body{
+    background-color: #b994b7;
+    
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    min-height: 4rem;
+    background-color: #a0649d;
+    margin-bottom: 30px;
+    
+}
+.headingRight{
+    margin-top: 20px;
+
+}
+.headingLeft{
+    margin-top: 15px;
+}
+.container{
+    margin-top: 10px;
+}
+h1{
+  color: rgb(59, 2, 51);
+  font-family: verdana;
+  font-size: 300%;
+}
+.media{
+    margin-top: 30px;
+}
