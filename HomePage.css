@@ -1,15 +1,16 @@
-
-:root{
+:root {
     --primary-color: rgb(231, 224, 251);
     --secondary-color: rgb(209, 197, 244);
-}   
+}
+
 body {
     background-image: url('./bg\ photo.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  }
-.heading{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.heading {
     background-image: url('./6.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,71 +19,97 @@ body {
     min-height: 2rem;
     background-color: #140237;
     margin-bottom: 30px;
-    color:var(--primary-color);
+    color: var(--primary-color);
     height: 50px;
-   
 
-    
+
+
 }
-.headingRight{
+
+.headingRight {
     margin-top: 5px;
 
 }
-.headingLeft{
+
+.headingLeft {
     margin-top: 0px;
 }
-.container{
+
+.container {
     margin-top: 10px;
 }
-.top-heading{
+
+.top-heading {
     color: var(--secondary-color);
-  font-size: 300%;
-  font-weight: bold;
+    font-size: 300%;
+    font-weight: bold;
 }
-.media{
+
+.media {
     margin-top: 40px;
     margin-bottom: 80px;
-    
+
 }
-img{
+
+img {
     border-radius: 20px;
 }
-.about{
+
+.about {
     text-align: left;
-    color:var(--primary-color);
+    color: var(--primary-color);
     font-size: medium;
     margin-left: 120px;
     margin-right: 120px;
     margin-top: 80px;
 }
-.Second-title{
+
+.Second-title {
     color: var(--secondary-color);
     font-family: verdana;
     margin-top: 100px;
-    
+
 }
-#services{
+
+#services {
     color: var(--secondary-color);
     margin-top: 50px;
 }
-.Services-items{
+
+.Services-items {
     margin-top: 30px;
     text-align: left;
-    color:var(--primary-color);
+    color: var(--primary-color);
 }
-.Ads{
-    color:var(--secondary-color); 
+
+.Ads {
+    color: var(--secondary-color);
 }
-footer{
+
+footer {
     background-image: url('./6.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    color:var(--primary-color);  
+    color: var(--primary-color);
     margin-top: 100px;
     opacity: 90%;
 
-    
+
 }
-a{
-    color:var(--primary-color);   
+
+.last-photo:hover {
+
+    border-style: solid;
+    border-color: rgb(20, 2, 49);
+}
+
+.myLink {
+
+    color: var(--primary-color);
+    text-decoration: none;
+
+}
+
+.myLink:hover {
+    color: rgb(80, 126, 148);
 }
